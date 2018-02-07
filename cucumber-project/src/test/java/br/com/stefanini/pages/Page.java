@@ -14,7 +14,7 @@ public class Page {
 	public void startService() throws IOException {
 
 		String path = new File("..").getCanonicalPath()
-		.concat("\\cucumber-project\\src\\it\\resources\\phantomjs.exe");
+		.concat("\\cucumber-project\\src\\test\\resources\\phantomjs.exe");
 		//boolean v = new File(path).isFile();
 		System.setProperty("phantomjs.binary.path", path);
 		//System.setProperty("webdriver.chrome.driver","C:/usr/drivers/chromedriver.exe");	
